@@ -1,0 +1,11 @@
+name: SeeWhatICanDo
+main: ru.sanoranx.WarnMe.Main
+version: 1.0
+author: SanoranX
+commands:
+  info:
+    description: Show info about plugin
+    usage: /info
+  warn:
+    description: Warns player
+    usage: /warn <subcommand> <player> <reason>
