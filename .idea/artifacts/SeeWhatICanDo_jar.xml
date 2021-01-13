@@ -5,6 +5,7 @@
       <element id="module-output" name="WarnME" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/spigot.jar" path-in-jar="/" />
       <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
     </root>
   </artifact>
 </component>

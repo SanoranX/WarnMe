@@ -1,0 +1,6 @@
+messages:
+  welcome: 'Some message here'
+  ban: 'You have been banned because of 3 warns on your account'
+  warn-message: '[Warn Me] Player: %s was warned with reason of %s'
+  warn-success: '[Warn Me] Player %s was successfully warned'
+  warn-after-counting: '[Warn Me] Player %s now has %s warns'
