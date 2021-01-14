@@ -17,3 +17,4 @@ messages:
   warn-message: '[Warn Me] Player: %s was warned with reason of %s'
   warn-after-counting: '[Warn Me] Player %s now has %s warns'
   database-connection-error: '§b[Warn Me] §fUnable to connect to database.'
+  not-enough-permission: '§b[Warn Me] §fYou dont have permission for this.'
