@@ -6,13 +6,21 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class Database {
-    private final String host = "localhost";
-    private final String port = "3306";
-    private final String database = "minecraft";
-    private final String username = "sanoranx";
-    private final String password = "password";
+    private final String host;
+    private final String port;
+    private final String database;
+    private final String username;
+    private final String password;
 
     private Connection connection;
+
+    public Database(String host, String port, String database, String username, String password) {
+        this.host = host;
+        this.port = port;
+        this.database = database;
+        this.username = username;
+        this.password = password;
+    }
 
     public boolean isConnected() {
         return (connection != null);

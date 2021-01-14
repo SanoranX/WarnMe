@@ -1,6 +1,19 @@
+db:
+  host: 'localhost'
+  port: '3306'
+  user: 'sanoranx'
+  password: 'password'
+  database: 'minecraft'
+
 messages:
   welcome: 'Some message here'
-  ban: 'You have been banned because of 3 warns on your account'
+  warn-success: '§b[Warn Me] §fPlayer was successfully warned.'
+  warn-clean: '§b[Warn Me] §fPlayer %s now has 0 warns'
+  after-warn-count: '§b[Warn Me] §fPlayer %s now has %d warns.'
+  player-warn-message: '§b[Warn Me] %s §fhas warned you because of %s.'
+  player-warn-ban: '§rYou have been banned because of 3 warns.'
+  console-warn-message: '§b[Warn Me] §f Player %s has been warned by %s with reason of %s'
+  ban: '§b[Warn Me] You have been banned because of 3 warns on your account'
   warn-message: '[Warn Me] Player: %s was warned with reason of %s'
-  warn-success: '[Warn Me] Player %s was successfully warned'
   warn-after-counting: '[Warn Me] Player %s now has %s warns'
+  database-connection-error: '§b[Warn Me] §fUnable to connect to database.'

@@ -14,9 +14,10 @@ public class Main extends JavaPlugin {
 
     public Database database;
     public DatabaseWorker databaseWorker;
+
     @Override
     public void onEnable(){
-        this.database = new Database();
+        this.database = new Database(this.getConfig().getString("db.host"), this.getConfig().getString("db.port"), this.getConfig().getString("db.database"), getConfig().getString("db.user"), getConfig().getString("db.password"));
         this.databaseWorker = new DatabaseWorker(this);
         try {
             database.connect();
@@ -37,6 +38,7 @@ public class Main extends JavaPlugin {
         getLogger().info("Enabled");
         getLogger().info("Warn system v0.1 activated");
         getLogger().info("Made by SanoranX");
+        getLogger().info(ChatColor.AQUA + "|" + ChatColor.WHITE);
     }
 
 
