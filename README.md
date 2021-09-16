@@ -1,4 +1,4 @@
-# Warn Me - warning system plugin
+# Warn Me - warning system plugin old
 <p align="center">
   <img width="200" height="200" src="src/ru/sanoranx/WarnMe/Images/5d2de4fc-87c6-451b-b410-9ddc57428a15_200x200.png">
 </p>
